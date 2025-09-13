@@ -33,7 +33,9 @@ predictive-heatpump-adoption/
 
 ### 1. Clone the Repository
 ```bash
-# Predictive Heat Pump Adoption
+git clone <repo-url>
+cd predictive-heatpump-adoption
+```
 
 ### 2. Set Up the Environment
 #### Option A: Python Virtual Environment
@@ -45,15 +47,38 @@ python -m venv .venv
 ![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)
 ![Docker Ready](https://img.shields.io/badge/Docker-ready-green.svg)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+
+## Project Overview
+This repository provides a comprehensive, production-style pipeline for predicting household adoption of electric heat pumps using machine learning. The project leverages a synthetic dataset with realistic household, housing, and utility features, and demonstrates best practices in data science, model evaluation, and interpretability. The workflow is designed to support policy makers, consultants, and researchers in understanding adoption drivers and targeting outreach efforts.
+
+### 🔑 Quickstart
 ```bash
 make train        # Run baseline logistic regression pipeline
 make compare      # Compare Logistic Regression, Random Forest, and XGBoost
+```
+
+## Key Features
+- **End-to-end pipeline:** Data preprocessing, model training, evaluation, and reporting
+- **Multiple models:** Logistic Regression (baseline), Random Forest, and XGBoost
+- **Interpretability:** Feature importance and SHAP analysis
 - **Fairness analysis:** Performance across demographic and regional groups
 - **Consulting-ready structure:** Modular code, clear documentation, reproducible environment
 
 ```
+predictive-heatpump-adoption/
+├── src/                # Source code (models, preprocessing, evaluation, utils)
+├── notebooks/          # Jupyter notebooks (EDA, model demo, comparison)
+├── data/               # Synthetic and scored datasets
+├── outputs/            # Model artifacts, metrics, plots (excluded from git)
+├── config/             # Configuration files
+├── docs/               # Policy brief and documentation
+├── Dockerfile          # Containerization setup
 ├── Makefile            # Automation commands
 ├── requirements.txt    # Python dependencies
+├── README.md           # Project overview and instructions
+├── run_compare.py      # Script for model comparison
+├── run_pipeline.py     # Main pipeline script
+```
 
 ## About the Dataset
 The project uses a synthetic dataset designed to mimic real-world household, housing, and utility characteristics relevant to heat pump adoption. Key features include:
@@ -87,6 +112,9 @@ The synthetic nature of the data ensures privacy and reproducibility, while stil
 1. Clone the Repository
 ```bash
 git clone <repo-url>
+cd predictive-heatpump-adoption
+```
+
 2. Set Up the Environment
 Option A: Python Virtual Environment
 ```bash

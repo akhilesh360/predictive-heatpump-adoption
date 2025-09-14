@@ -3,6 +3,7 @@
 ## Project Overview
 
 This repository provides a comprehensive, production-style pipeline for predicting household adoption of electric heat pumps using machine learning. The project leverages a synthetic dataset with realistic household, housing, and utility features, and demonstrates best practices in data science, model evaluation, and interpretability. The workflow is designed to support policy makers, consultants, and researchers in understanding adoption drivers and targeting outreach efforts.
+<img width="612" height="344" alt="image" src="https://github.com/user-attachments/assets/901edfe1-3f81-44a9-978b-eff8e01696f2" />
 
 ## Key Features
 - **End-to-end pipeline:** Data preprocessing, model training, evaluation, and reporting

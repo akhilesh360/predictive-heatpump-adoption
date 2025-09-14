@@ -71,12 +71,12 @@ These libraries are listed in `requirements.txt` and are installed automatically
 
 ## Example Outputs
 - **ROC Curve Comparison**: Visualizes the trade-off between true positive and false positive rates for all models.
-- - <img width="567" height="432" alt="image" src="https://github.com/user-attachments/assets/8cdd30c2-7dd3-45f8-99f9-5e87bd6badf6" />
+  <img width="567" height="432" alt="image" src="https://github.com/user-attachments/assets/8cdd30c2-7dd3-45f8-99f9-5e87bd6badf6" />
 - **Feature Importance**: Bar chart showing which features most influence adoption predictions.
-- - <img width="841" height="548" alt="image" src="https://github.com/user-attachments/assets/67fd7e7f-7920-40aa-b0d4-e174e946e794" />
+  <img width="841" height="548" alt="image" src="https://github.com/user-attachments/assets/67fd7e7f-7920-40aa-b0d4-e174e946e794" />
 - **Fairness Report**: JSON file summarizing model performance across demographic and regional groups.
 - **SHAP Summary Plot**: Beeswarm plot showing the impact of each feature on model output.
-- - <img width="786" height="941" alt="image" src="https://github.com/user-attachments/assets/2e882677-3cee-4c93-98ab-1fce16d5f9e5" />
+  <img width="786" height="941" alt="image" src="https://github.com/user-attachments/assets/2e882677-3cee-4c93-98ab-1fce16d5f9e5" />
 
 
 ## How to Contribute

@@ -74,6 +74,8 @@ These libraries are listed in `requirements.txt` and are installed automatically
 - **Feature Importance**: Bar chart showing which features most influence adoption predictions.
 - **Fairness Report**: JSON file summarizing model performance across demographic and regional groups.
 - **SHAP Summary Plot**: Beeswarm plot showing the impact of each feature on model output.
+- - <img width="786" height="941" alt="image" src="https://github.com/user-attachments/assets/2e882677-3cee-4c93-98ab-1fce16d5f9e5" />
+
 
 ## How to Contribute
 1. Fork the repository and create a new branch for your feature or fix.

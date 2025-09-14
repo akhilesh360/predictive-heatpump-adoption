@@ -161,3 +161,5 @@ Open `notebooks/01_exploration.ipynb` in Jupyter to review the synthetic dataset
 ### 6. Inspect Results and Artifacts
 - All key metrics, plots, and model artifacts are in the `outputs/` folder.
 - Notebooks provide step-by-step analysis, visualizations, and interpretation.
+
+Made with ❤️ to help improve predictive-heatpump-adoption
